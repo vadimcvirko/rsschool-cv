@@ -4,8 +4,9 @@
 * Contacts:
     * E-mail: cvi-vadim@yandex.ru
     * Phone number: +375295642745
-    * Skype: live:e63d4653804e4859
     * GitHub: vadimcvirko
+    * Skype : live:cvi-vadim 
+    * Instagtram :instagram.com/vadim_lelik/ 
 # About me:
 He graduated from MITSO University with a degree in Logistics and Economics.Since 2012, I have been working at 5-element in various positions.The front-end started getting carried away for itself.I watched the channel on youtube Vladilen Minin, also took a course on React from Vladilen Minin on Udemy.
 
