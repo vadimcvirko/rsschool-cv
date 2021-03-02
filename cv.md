@@ -19,8 +19,8 @@ He graduated from MITSO University with a degree in Logistics and Economics.Sinc
     * Git
 
 * Sample code
- https://github.com/vadimcvirko/Project
- https://github.com/vadimlelik/react-pizza 
+    * https://github.com/vadimcvirko/Project
+    * https://github.com/vadimlelik/react-pizza 
 
 * English level:
     * А2 (Intermediate)
