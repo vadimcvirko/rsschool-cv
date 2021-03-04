@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(276deg, rgba(62, 210, 212, 1) 7%, rgba(253, 187, 45, 0.8211659663865546) 100%);
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto
+}
+
+.main-content {
+    display: flex;
+}
+
+.side-info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: 0 0 40%;
+    border: 1px solid#ccc;
+    border-radius: 20px;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // .info__avatar
+
+    &__avatar {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    // .info__contacts
+
+    &__contacts {}
+}
+
+.contacts {
+
+
+    // .contacts__list
+
+    &__list {
+        margin-top: 50px;
+    }
+
+    // .contacts__item
+
+    &__item {
+        margin-bottom: 10px;
+
+    }
+
+    // .contacts__tel
+
+    &__tel {
+        display: flex;
+        align-items: center;
+        color: #000;
+
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            background-image: url(../img/tell.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    }
+
+    // .contacts__mail
+
+    &__mail {
+        display: flex;
+        align-items: center;
+        color: #000;
+
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            background-image: url(../img/email.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    }
+}
+
+.contacts-socila {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    // .contacts-socila__item
+
+    &__item {
+
+    }
+
+    // .contacts-socila__link--git
+
+    &__link--git {}
+
+    // .contacts-socila__link--skype
+
+    &__link--skype {}
+
+    // .contacts-socila__link--inst
+
+    &__link--inst {}
+}
+
+.main {
+
+    // .main__body
+
+    &__body {
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    // .main__about
+
+    &__about {}
+
+    // .main__title
+
+    &__title {
+        font-size: 32;
+        font-weight: bold;
+    }
+
+    // .main__desc
+
+    &__desc {
+        font-size: 24px;
+    }
+
+    // .main__skisls
+
+    &__skisls {}
+
+    // .main__code
+
+    &__code {
+        
+    }
+}
+
+.skil {
+
+    // .skil__title
+
+    &__title {}
+
+    // .skil__list
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .skil__item
+
+    &__item {
+        color:#ffff;
+        font-size: 18px;
+    }
+}
+
+.code {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    // .code__link
+
+    &__link {
+        color:#ccc;
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
