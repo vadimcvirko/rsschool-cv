@@ -12,6 +12,7 @@ li {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(276deg, rgba(62, 210, 212, 1) 7%, rgba(253, 187, 45, 0.8211659663865546) 100%);
+    
 }
 
 .container {
@@ -129,7 +130,9 @@ body {
 
     // .contacts-socila__link--git
 
-    &__link--git {}
+    &__link--git {
+        
+    }
 
     // .contacts-socila__link--skype
 
@@ -138,6 +141,12 @@ body {
     // .contacts-socila__link--inst
 
     &__link--inst {}
+
+    svg:hover{
+        transition: ease-in-out 0.6s;
+        fill: #fff
+    }
+   
 }
 
 .main {

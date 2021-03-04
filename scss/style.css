@@ -126,6 +126,12 @@ body {
           justify-content: space-between;
 }
 
+.contacts-socila svg:hover {
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
+  fill: #fff;
+}
+
 .main__body {
   padding: 0px 15px;
   display: -webkit-box;
