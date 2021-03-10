@@ -17,12 +17,32 @@ body {
 
 .container {
     max-width: 95%;
-    margin: 0 auto
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .main-content {
     display: flex;
+
 }
+
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    // .header__text
+
+    &__text {
+        font-size:24px;
+        color:#fff;
+        text-transform: uppercasew;
+    }
+}
+
 
 .side-info {
     padding-top: 100px;
@@ -221,4 +241,34 @@ body {
         font-size: 18px;
         text-decoration: none;
     }
+}
+
+.footer {
+    padding:10px;
+
+    // .footer__body
+
+    &__body {
+        display: flex;
+        justify-content:space-between
+    }
+
+    // .footer__link
+
+    &__link {
+    }
+
+    // .footer__logo
+
+    &__logo {
+        flex-basis: 100px;
+        img{
+            max-height: 40px;
+        }
+        
+    }
+
+    // .footer__copu
+
+    &__copu {}
 }
